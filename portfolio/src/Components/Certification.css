@@ -1,0 +1,68 @@
+.certification-container {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px green;
+    margin:2% 7.5%;
+    padding: 1rem 0;
+    border-radius: 0.35rem;
+    text-align: left;
+    border-width: 0.2rem;
+    border-color: #30C785;
+    background-color: rgba(14, 237, 140, 0.4);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.certification-container:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.certification-name {
+    font-size: 1.75rem;
+    color: #56BBF1;
+    margin-left: 1%;
+    font-weight: 500;
+    transition: 0.25s;
+    margin: 0 5%;
+}
+
+.certification-name:hover {
+    color: #8ed5fc;
+    transition: 0.25s;
+}
+
+.certification-technology {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 100;
+}
+
+.certification-technology-text {
+    font-size: 1.75rem;
+    color:#30C785;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-right: auto;
+}
+
+.certification-subcontainer {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.certification-img-wrapper {
+    width: 50%;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: 15%;
+}
+
+.certification-img {
+    width: 100%;
+}
+
