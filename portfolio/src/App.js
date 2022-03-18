@@ -2,7 +2,6 @@ import "./App.css";
 import React, { useState, useEffect, useCallback } from "react";
 import Settings from "./Components/Settings";
 import resume from "./docs/resume.pdf";
-import { mergeSort, getMergeSortAnimations } from "./Algorithms/MergeSort";
 import SectionTitle from "./Components/SectionTitle";
 import Certification from "./Components/Certification";
 import WorkExperience from "./Components/WorkExperience";
