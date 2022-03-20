@@ -3,11 +3,11 @@ import "../App.css";
 import Typical from 'react-typical'
 
 const LINKEDIN_IMG = require('./images/linkedin.png')
-const IIT_IMG = require('./images/iit.png')
+const GITHUB_IMG = require('./images/github (1).png')
 
-function Settings({ vals, onClick, buttonsDisabled }) {
+function Header({ vals, onClick, buttonsDisabled }) {
   
-  return <div className="settings-wrapper">
+  return <div className="header-wrapper">
     <Typical
         className="typed-title"
         steps={['Data Scientist', 0, 'Data Scientist Practitioner based in Chicago', 100]}
@@ -26,10 +26,10 @@ function Settings({ vals, onClick, buttonsDisabled }) {
         </a>
         <a href="https://www.linkedin.com/in/victor-samsonov-56948a1a3/" className="header-icon-wrapper"
         target="_blank">
-          <img src={IIT_IMG} className="header-icon"/>
+          <img src={GITHUB_IMG} className="header-icon"/>
         </a>
       </div>
   </div>;
 }
 
-export default Settings;
+export default Header;

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Certification.css";
 
-const Certification = ({
+const Project = ({
   name = "Lorem Ipsum",
   href,
   technologies = [],
   img,
 }) => {
+
   const handleTechnologies = () => {
     let out = [];
     for (let technology of technologies)
@@ -35,4 +36,4 @@ const Certification = ({
   );
 };
 
-export default Certification;
+export default Project;
