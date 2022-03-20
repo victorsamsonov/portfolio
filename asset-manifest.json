@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7b5b814f.css",
-    "main.js": "/portfolio/static/js/main.c055d3e0.js",
+    "main.css": "/portfolio/static/css/main.11f3e317.css",
+    "main.js": "/portfolio/static/js/main.c74117de.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Python ML.jpg": "/portfolio/static/media/Python ML.b0eac17e051d2471a36c.jpg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.ab9bd302c651a3561d66.pdf",
     "static/media/sorting-visualizer.PNG": "/portfolio/static/media/sorting-visualizer.13508c5ceb1fc9d47ecf.PNG",
     "static/media/Udemy-DL.PNG": "/portfolio/static/media/Udemy-DL.9d52eeb034e04536d47a.PNG",
+    "static/media/Python Data Science.png": "/portfolio/static/media/Python Data Science.eaa4ace7d6a50512f515.png",
     "static/media/Udemy-ML.PNG": "/portfolio/static/media/Udemy-ML.dd2d898f41eadc95540e.PNG",
     "static/media/pathfinding-visualizer.PNG": "/portfolio/static/media/pathfinding-visualizer.27f4ee857eb739d1a26e.PNG",
+    "static/media/Sudoku.PNG": "/portfolio/static/media/Sudoku.0fbc7aa28086dbc1353d.PNG",
     "static/media/scikit-learn.png": "/portfolio/static/media/scikit-learn.badd957ac15b0c4bf695.png",
     "static/media/HTML and CSS.png": "/portfolio/static/media/HTML and CSS.fdd549b973755aa0351e.png",
     "static/media/new-linkedin-logo-white-black-png.png": "/portfolio/static/media/new-linkedin-logo-white-black-png.ba884e1f9ad4362348c1.png",
+    "static/media/Book DL.jpg": "/portfolio/static/media/Book DL.5c3443af48de5642ddcd.jpg",
+    "static/media/Racket.png": "/portfolio/static/media/Racket.deafcf84afc2c4b6ced8.png",
     "static/media/iit.png": "/portfolio/static/media/iit.7efc2d3c61834ae4639f.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/portfolio/index.html",
-    "main.7b5b814f.css.map": "/portfolio/static/css/main.7b5b814f.css.map",
-    "main.c055d3e0.js.map": "/portfolio/static/js/main.c055d3e0.js.map",
+    "main.11f3e317.css.map": "/portfolio/static/css/main.11f3e317.css.map",
+    "main.c74117de.js.map": "/portfolio/static/js/main.c74117de.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b5b814f.css",
-    "static/js/main.c055d3e0.js"
+    "static/css/main.11f3e317.css",
+    "static/js/main.c74117de.js"
   ]
 }
