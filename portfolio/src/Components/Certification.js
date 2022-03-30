@@ -15,7 +15,7 @@ const Certification = ({
           <text className="certification-technology">{technology}</text>
         </li>
       );
-    return <ul style={{}}>{out}</ul>;
+    return <ul className="certification-ul">{out}</ul>;
   };
 
   return (

@@ -24,7 +24,7 @@ function Header({ vals, onClick, buttonsDisabled }) {
         target="_blank">
           <img src={LINKEDIN_IMG} className="header-icon"/>
         </a>
-        <a href="https://www.linkedin.com/in/victor-samsonov-56948a1a3/" className="header-icon-wrapper"
+        <a href="https://github.com/victorsamsonov" className="header-icon-wrapper"
         target="_blank">
           <img src={GITHUB_IMG} className="header-icon"/>
         </a>

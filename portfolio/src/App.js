@@ -15,6 +15,7 @@ const SUDOKU_IMG = require("./Components/images/Sudoku.PNG");
 const BOOK_PDSH = require("./Components/images/Python Data Science.png");
 const BOOK_ML = require("./Components/images/Python ML.jpg");
 const BOOK_DL = require("./Components/images/Book DL.jpg");
+const BOOK_100PAGE = require("./Components/images/100Page.jpg");
 const SORTING_IMG = require("./Components/images/sorting-visualizer.PNG");
 function App() {
   const ABOUT_ME = "About Me";
@@ -53,11 +54,14 @@ function App() {
     href: "https://www.oreilly.com/library/view/python-data-science/9781491912126/",
     img: BOOK_PDSH,
     author: "Jake VanderPlas",
-    summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae congue eu consequat ac felis donec et odio pellentesque. Duis at consectetur lorem donec. Id leo in vitae turpis massa sed elementum. Sit amet est placerat in egestas erat. Consequat interdum varius sit amet mattis vulputate enim nulla. Tincidunt augue interdum velit euismod in pellentesque massa placerat. Massa id neque aliquam vestibulum morbi. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Nunc aliquet bibendum enim facilisis gravida neque convallis. Varius vel pharetra vel turpis nunc eget lorem dolor. Lacus vestibulum sed arcu non odio euismod lacinia at. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Scelerisque purus semper eget duis at.
-
-    Amet justo donec enim diam. Nunc sed velit dignissim sodales ut eu. Magna fermentum iaculis eu non diam phasellus vestibulum lorem. Molestie at elementum eu facilisis sed odio morbi quis. Lobortis feugiat vivamus at augue eget arcu. Feugiat scelerisque varius morbi enim nunc. Risus quis varius quam quisque id diam vel quam. Est placerat in egestas erat imperdiet sed euismod nisi porta. Donec enim diam vulputate ut pharetra sit amet. Sed lectus vestibulum mattis ullamcorper. Sit amet mattis vulputate enim nulla aliquet. Aliquet risus feugiat in ante metus dictum at tempor commodo. Sit amet nulla facilisi morbi. Sagittis aliquam malesuada bibendum arcu. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Amet aliquam id diam maecenas ultricies mi. Nulla pellentesque dignissim enim sit amet venenatis.
-    \n
-    `,
+    summary: 
+      <p className="book-summary">
+      When I became interested in the field of Data Science and after completing several online courses, I found out that I lacked knowledge in certain libraries such as Numpy, Matplotlib, and Pandas. As a result I started seeking for books that would not only provide me with the tools to become familiar with these instruments, but to also cover Data Science to a certain extent. One of the most recommended books was this one in particular and It was definitely worth the read. The book is sepparated into 4 main sections in which mainly covers: IPython (the shortest section which I skipped), Numpy, Pandas, Matplotlib, and Machine Learning. Each of these sections provide the reader with gentle introductions with corresponding code snippets. 
+      <br/>
+      <br/>
+    I am glad to have read this books since a large portion of Machine Learning and Deep Learning involves data preprocessing, which this book has helped me tremendously to become aquainted with. I recommend this book to anyone that was some basic programming experience and that is interested to take their first step into the field of Data Science. You will learn Broadcasting rules, Data frame operations, Data Processing Methods, Data Visualization, and very basic implementations of Machine Learning Algorithms using libraries (scikit-learn).
+    </p>
+    ,
   };
 
   const BOOK2 = {
@@ -66,7 +70,8 @@ function App() {
     img: BOOK_ML,
     author: "Geron Aurelien",
     summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      <p className="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
   };
 
   const BOOK3 = {
@@ -75,8 +80,23 @@ function App() {
     img: BOOK_DL,
     author: "Ian Goodfellow, Yoshua Bengio and Aaron Courville",
     summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    <p className="book-summary"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>,
   };
+
+  const BOOK4 = {
+    name: "The Hundred-Page Machine Learning Book",
+    href: "http://themlbook.com/",
+    img: BOOK_100PAGE,
+    author: "Andriy Burkov",
+    summary:
+    <text className="book-summary">
+      The fact that the author was able to summarize Machine Learning In approximately 120 pages without giving up that much detail is remarkable. The book covers some of the basic math that is necessary in Machine Learning, along with supervised, unsupervised, semi-supervised algorithms, and has a chapter centered around Neural Networks and Deep Learning. Despite the book seeming very "Math friendly" at the beginning, It does get more invovled with the formulas and explanations as you  make progress. This shouldn't be an issue for those that have took mathematics courses such as Multivariable Calculus with optimization, Linear Algebra, Probability, and Statistics. 
+      <br/>
+      <br/>
+      Overall, I would recommend this book for those that have some basic understanding in Machine Learning since this isn't exactly a book for a beginner to learn the details (the book is short so it is hard to provide very detailed explanations, which perfectly makes sense), but it seems like the perfect tool to read before a job interview or to refresh some concepts, especially since you can read this publication in one sitting. It is a must have for any Data Scientist.
+      </text>
+  }
 
   const PROJECT2 = {
     name: "React JS Pathfinding Visualizer 2021",
@@ -170,7 +190,7 @@ function App() {
     ],
   };
 
-  const ALL_BOOKS = [BOOK1, BOOK2, BOOK3];
+  const ALL_BOOKS = [BOOK1, BOOK4, BOOK2, BOOK3];
   const ALL_PROJECTS = [PROJECT1, PROJECT2, PROJECT3];
   const ALL_WORK_EXPERIENCES = [WORK_EXPERIENCE1, WORK_EXPERIENCE2];
   const ALL_CERTIFICATIONS = [CERTIFICATION2, CERTIFICATION1];
