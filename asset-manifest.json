@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.03dbb937.css",
-    "main.js": "/portfolio/static/js/main.d56938e7.js",
+    "main.css": "/portfolio/static/css/main.0fb56f4c.css",
+    "main.js": "/portfolio/static/js/main.f2bdc018.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/img3.jpg": "/portfolio/static/media/img3.eaec6776300558a224de.jpg",
     "static/media/Python ML.jpg": "/portfolio/static/media/Python ML.b0eac17e051d2471a36c.jpg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.ab9bd302c651a3561d66.pdf",
+    "static/media/img2.png": "/portfolio/static/media/img2.3092e841573266e0ba45.png",
     "static/media/sorting-visualizer.PNG": "/portfolio/static/media/sorting-visualizer.13508c5ceb1fc9d47ecf.PNG",
     "static/media/Udemy-DL.PNG": "/portfolio/static/media/Udemy-DL.9d52eeb034e04536d47a.PNG",
     "static/media/Python Data Science.png": "/portfolio/static/media/Python Data Science.eaa4ace7d6a50512f515.png",
@@ -20,12 +22,12 @@
     "static/media/100Page.jpg": "/portfolio/static/media/100Page.4783a3212f8c8710fd1f.jpg",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/portfolio/index.html",
-    "main.03dbb937.css.map": "/portfolio/static/css/main.03dbb937.css.map",
-    "main.d56938e7.js.map": "/portfolio/static/js/main.d56938e7.js.map",
+    "main.0fb56f4c.css.map": "/portfolio/static/css/main.0fb56f4c.css.map",
+    "main.f2bdc018.js.map": "/portfolio/static/js/main.f2bdc018.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03dbb937.css",
-    "static/js/main.d56938e7.js"
+    "static/css/main.0fb56f4c.css",
+    "static/js/main.f2bdc018.js"
   ]
 }
