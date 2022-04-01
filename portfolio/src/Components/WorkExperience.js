@@ -5,6 +5,8 @@ const WorkExperience = ({
   href,
   technologies = [],
   descriptions = [],
+  img = undefined,
+  img2 = undefined
 }) => {
 
   const handleTechnologies = () => {
@@ -40,6 +42,12 @@ const WorkExperience = ({
       <text className="we-technology-text"> Technologies:</text>
       <div className="we-subcontainer">
         {handleTechnologies()}
+        <div className="work-img-wrapper">
+          <img className="work-img" src={img} />
+        </div>
+        <div className="work-img-wrapper">
+          <img className="work-img" src={img2} />
+        </div>
       </div>
     </a>
   );

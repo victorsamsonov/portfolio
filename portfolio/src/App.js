@@ -17,6 +17,8 @@ const BOOK_ML = require("./Components/images/Python ML.jpg");
 const BOOK_DL = require("./Components/images/Book DL.jpg");
 const BOOK_100PAGE = require("./Components/images/100Page.jpg");
 const SORTING_IMG = require("./Components/images/sorting-visualizer.PNG");
+const PERKUNO_IMG1 = require("./Components/images/img2.png");
+const PERKUNO_IMG2 = require("./Components/images/img3.jpg");
 function App() {
   const ABOUT_ME = "About Me";
   const TECHNOLOGIES_SKILLS = "Technologies and Skills";
@@ -70,8 +72,12 @@ function App() {
     img: BOOK_ML,
     author: "Geron Aurelien",
     summary:
-      <p className="book-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <text className="book-summary">
+        Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow captures a wide range of topics in ML and Deep Learning, that allows the reader to become familiar with many concepts and techniques currently used in the field. This book in my opinion is the full package for a ML practitioner since this book does a great job on building up from previous concept, while also including a step by step Data Science Project, code snippets for each concept and it's corresponding mathematical equations. The book is divided into Machine Learning Fundamentals, and Neural Networks and Deep Learning sections, the latter being an addition to the First Edition, which essentially makes this a brand new book even if you have read the initial edition.
+        <br/>
+        <br/>
+       This book is perfect for beginners in the field, and will give you all the tools you need to tackle ML problems, and gain necessary experience through projects. Even if you don't understand the math, I am certain that you will find great value in this book since scikit-learn and Keras are high-level API's that allow you to "skip" the math, although It would still be a good idea to polish this aspect in the future if mathematics is an issue for you. This book is a must read and it is no surprise that it is often considered the bible of Machine Learning along with Deep Learning by Yoshua Bengio.
+      </text>
   };
 
   const BOOK3 = {
@@ -94,7 +100,7 @@ function App() {
       The fact that the author was able to summarize Machine Learning In approximately 120 pages without giving up that much detail is remarkable. The book covers some of the basic math that is necessary in Machine Learning, along with supervised, unsupervised, semi-supervised algorithms, and has a chapter centered around Neural Networks and Deep Learning. Despite the book seeming very "Math friendly" at the beginning, It does get more invovled with the formulas and explanations as you  make progress. This shouldn't be an issue for those that have took mathematics courses such as Multivariable Calculus with optimization, Linear Algebra, Probability, and Statistics. 
       <br/>
       <br/>
-      Overall, I would recommend this book for those that have some basic understanding in Machine Learning since this isn't exactly a book for a beginner to learn the details (the book is short so it is hard to provide very detailed explanations, which perfectly makes sense), but it seems like the perfect tool to read before a job interview or to refresh some concepts, especially since you can read this publication in one sitting. It is a must have for any Data Scientist.
+      Overall, I would recommend this book for those that have some basic understanding in Machine Learning since this isn't exactly a book for a beginner to learn the details (the book is short so it is hard to provide very detailed explanations, which perfectly makes sense), but it seems like the perfect tool to read before a job interview or to refresh some concepts, especially since you can read this publication in one sitting. It is a must have for any Data Scientist. The book is available for free online and if you like it, you can buy it to show the author your apreciation.
       </text>
   }
 
@@ -188,6 +194,8 @@ function App() {
       "Lead the Front-End team in completing all tasks on time, resulting in the App placing top 5 among 200 competitors in the analysis report.",
       "Implemented the Machine Learning regression algorithm for predicting Stock Prices.",
     ],
+    img: PERKUNO_IMG2,
+    img2: PERKUNO_IMG1
   };
 
   const ALL_BOOKS = [BOOK1, BOOK4, BOOK2, BOOK3];
@@ -307,13 +315,15 @@ function App() {
 
   const handleWorkExperiences = () => {
     let out = [];
-    for (let { name, href, technologies, descriptions } of ALL_WORK_EXPERIENCES)
+    for (let { name, href, technologies, descriptions, img, img2 } of ALL_WORK_EXPERIENCES)
       out.push(
         <WorkExperience
           name={name}
           href={href}
           technologies={technologies}
           descriptions={descriptions}
+          img={img}
+          img2={img2}
         />
       );
 
