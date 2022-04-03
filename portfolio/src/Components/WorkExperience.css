@@ -66,3 +66,61 @@
 .we-img {
     width: 100%;
 }
+
+@media (max-width: 1200px) {
+    .we-name {
+        font-size: 1.5rem;
+        margin-left: 1%;
+        font-weight: 500;
+        transition: 0.25s;
+        margin: 0 4%;
+    }
+
+    .we-technology-text {
+        font-size: 1.5rem;
+    }
+
+    .we-technology {
+        font-size: 1.25rem;
+    }
+
+    .work-img {
+        width: 90%;
+        margin-right:4rem;
+        margin-bottom: 1rem;
+        max-width: 250px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .we-name {
+        font-size: 1.25rem;
+        margin: 0 4%;
+        font-weight: 400;
+    }
+
+    .we-technology-text {
+        font-size: 1.25rem;
+    }
+
+    .we-technology {
+        font-size: 1rem;
+    }
+
+    .work-img {
+        width: 90%;
+        margin-bottom: 1rem;
+        max-width: 200px;
+    }
+
+    .we-subcontainer {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+

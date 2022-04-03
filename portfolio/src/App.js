@@ -57,12 +57,12 @@ function App() {
     img: BOOK_PDSH,
     author: "Jake VanderPlas",
     summary: 
-      <p className="book-summary">
+      <text className="book-summary">
       When I became interested in the field of Data Science and after completing several online courses, I found out that I lacked knowledge in certain libraries such as Numpy, Matplotlib, and Pandas. As a result I started seeking for books that would not only provide me with the tools to become familiar with these instruments, but to also cover Data Science to a certain extent. One of the most recommended books was this one in particular and It was definitely worth the read. The book is sepparated into 4 main sections in which mainly covers: IPython (the shortest section which I skipped), Numpy, Pandas, Matplotlib, and Machine Learning. Each of these sections provide the reader with gentle introductions with corresponding code snippets. 
       <br/>
       <br/>
     I am glad to have read this books since a large portion of Machine Learning and Deep Learning involves data preprocessing, which this book has helped me tremendously to become aquainted with. I recommend this book to anyone that was some basic programming experience and that is interested to take their first step into the field of Data Science. You will learn Broadcasting rules, Data frame operations, Data Processing Methods, Data Visualization, and very basic implementations of Machine Learning Algorithms using libraries (scikit-learn).
-    </p>
+    </text>
     ,
   };
 

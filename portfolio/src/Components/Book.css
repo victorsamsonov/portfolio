@@ -68,7 +68,7 @@
 .book-subcontainer {
     width:100%;
     justify-content: space-evenly;
-
+    flex-direction: column;
 }
 
 .book-img-wrapper {
@@ -77,14 +77,75 @@
     float: left;
     padding-right: 0;
     margin-right: 1rem;
-    
 }
 
 .book-img {
     max-width: 300px;
     border-radius: 0.2rem;
-
 }
+
 .book-text-wrapper {
     margin: 1% 2%
 }
+
+@media (max-width: 1200px) {
+    .book-name {
+        font-size: 1.5rem;
+        margin-left: 1%;
+        font-weight: 500;
+        transition: 0.25s;
+        margin: 0 4%;
+    }
+
+    .book-sub-title {
+        font-size: 1.25rem;
+    }
+
+    .book-technology {
+        font-size: 1.25rem;
+    }
+
+    .book-img {
+        max-width: 275px;
+        border-radius: 0.2rem;
+    }
+
+    .book-summary {
+        font-size: 1rem;
+        color: white;
+        font-weight: 100;
+        margin: 5% 5%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 700px) {
+    .book-img {
+        max-width: 200px;
+        border-radius: 0.2rem;
+    }
+
+    .book-name {
+        font-size: 1.25rem;
+        margin: 0 4%;
+        font-weight: 400;
+    }
+
+    .book-sub-title {
+        font-size: 1rem;
+    }
+
+    .book-technology {
+        font-size: 1rem; 
+    }
+
+    .book-summary {
+        font-size: .75rem;
+        color: white;
+        font-weight: 100;
+        margin: 5% 5%;
+        text-align: justify;
+    }
+
+}
+
