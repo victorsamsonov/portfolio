@@ -5,6 +5,7 @@
   flex-direction: column;
   background-color: #0c0c25;
   width: 100%;
+  overflow-x: hidden;
 }
 
 button {
@@ -502,32 +503,35 @@ a text {
     background: #0e8581;
     opacity: 0.1;
     z-index: 0;
+    bottom: 4%;
   }
 
   .box-area li:nth-child(2) {
     left: 15%;
     width: 20px;
     height: 20px;
+    bottom: 4%;
   }
 
   .box-area li:nth-child(3) {
     left: 42%;
     width: 70px;
     height: 70px;
+    bottom: 2%;
   }
 
   .box-area li:nth-child(4) {
     left: 30%;
     width: 105px;
     height: 105px;
+    bottom: 5%;
   }
 
   .box-area li:nth-child(5) {
     left: 23%;
     width: 20px;
     height: 20px;
-    bottom: -2%;
-    transition:1s
+    bottom: 5%;
   }
 
   .header-wrapper {
@@ -595,7 +599,6 @@ a text {
   border-radius: 0.75rem;
   background-color: #020b49;
 }
-
 
 li {
   list-style: none;
