@@ -49,10 +49,9 @@
 .book-summary {
     font-size: 1.25rem;
     color: white;
-    font-weight: 100;
+    font-weight: 200;
     margin: 5% 5%;
     text-align: justify;
-    
 }
 
 .book-summary-text {
@@ -114,7 +113,6 @@
     .book-summary {
         font-size: 1rem;
         color: white;
-        font-weight: 100;
         margin: 5% 5%;
         text-align: justify;
     }
@@ -143,7 +141,6 @@
     .book-summary {
         font-size: .85rem;
         color: white;
-        font-weight: 100;
         margin: 5% 5%;
         text-align: justify;
     }
