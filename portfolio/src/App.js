@@ -14,6 +14,9 @@ const COURSERA_CERT1 = require("./Components/images/Coursera1.PNG")
 const COURSERA_CERT2 = require("./Components/images/Coursera2.PNG")
 const PATHFINDING_IMG = require("./Components/images/pathfinding-visualizer.PNG");
 const SUDOKU_IMG = require("./Components/images/Sudoku.PNG");
+const SEN_IMG = require("./Components/images/After SE.PNG");
+const DLRM = require("./Components/images/dlrm.png");
+const KAGGLE = require("./Components/images/KagglePlot.PNG");
 const BOOK_PDSH = require("./Components/images/Python Data Science.png");
 const BOOK_ML = require("./Components/images/Python ML.jpg");
 const BOOK_DL = require("./Components/images/Book DL.jpg");
@@ -55,7 +58,7 @@ function App() {
     "Node JS",
     "TypeScript",
   ];
-
+ 
   const BOOK1 = {
     name: "Python Data Science Handbook",
     href: "https://www.oreilly.com/library/view/python-data-science/9781491912126/",
@@ -210,6 +213,7 @@ function App() {
       "Algorithms",
     ],
     img: PATHFINDING_IMG,
+    descriptions:[]
   };
 
   const PROJECT1 = {
@@ -224,6 +228,7 @@ function App() {
       "Algorithms",
     ],
     img: SORTING_IMG,
+    descriptions:[]
   };
 
   const PROJECT3 = {
@@ -231,6 +236,43 @@ function App() {
     href: "https://github.com/victorsamsonov/Python-Random-Sudoku-Generator",
     technologies: ["Python", "Pygame", "Git", "Algorithms"],
     img: SUDOKU_IMG,
+    descriptions:[]
+  };
+
+  const PROJECT4 = {
+    name: "Squeeze and Excitation Networks, Deep Learning Project",
+    href: "",
+    technologies: ["Python", "PyTorch", "Deep Learning", "ResNet-50"],
+    img: SEN_IMG,
+    descriptions: [
+      "	Used Python, Tensorflow, Azure ML, and Azure Blob Storage to develop AI solutions for a smart table tennis racket that tracks the players progress and analyzes their technique.",
+      "Improved the Data Processing pipeline by performing data augmentation and implemented a DNN for hit and type of swing detection, achieving 98.9% accuracy resulting in a successful demo and winning the Berlin Startup-Night.",
+      "Implemented the Versatile Quaternion Filter in a weakly supervised learning context for IMU pose estimation (5.32° RMSE)."
+    ],
+  };
+
+  const PROJECT5 = {
+    name: "Deep Learning Movie Recommendation Systems, Machine Learning/ Deep Learning Project Oct 2022 – Dec 2022",
+    href: "https://github.com/victorsamsonov/CS-584-project",
+    technologies: ["Python", "TensorFlow", "Deep Learning", "Machine Learning"],
+    img: DLRM,
+    descriptions: [
+      "Implemented collaborative recommendation systems for the Movie Lens dataset using Python, scikit-learn and TensorFlow.",
+      "Implemented multiple Deep Learning Recommendation systems with Embedding layer. Achieved MAE of 0.741.",
+      "Presented results in a detailed 8-page final report (EDA, model performance, training and validation plots, performance, etc.)."
+    ],
+  };
+
+  const PROJECT6 = {
+    name: "Kaggle Spaceship Titanic Competition EDA | 17 ML models + DNN implementation (Gold Medal Kernel) Jun  2022 – Aug 2022",
+    href: "https://www.kaggle.com/code/vicsonsam/sst-eda-17-models-dl-top-7",
+    technologies: ["Python", "TensorFlow", "scikit-learn", "EDA", "Feature Selection", "Feature Engineering"],
+    img: KAGGLE,
+    descriptions: [
+      "Participated in a Kaggle Competition and achieved top 7% performance, awarding me with the Kaggle Expert rank",
+      "Performed in-depth EDA, feature engineering, ensembles, and hyperparameter tuning. Final model resulted in 81% acc.",
+      "Devised a kernel which became the top 20 most upvoted among +3000 submissions."
+    ],
   };
 
   const CERTIFICATION1 = {
@@ -245,6 +287,7 @@ function App() {
       "TensorFlow",
     ],
     img: UDEMY_CERT1,
+    descriptions: false,
   };
 
   const CERTIFICATION2 = {
@@ -259,6 +302,7 @@ function App() {
       "Boltzmann Machines",
       "Autoencoders",
     ],
+    descriptions: false,
     img: UDEMY_CERT2,
   };
 
@@ -271,6 +315,7 @@ function App() {
       "ML Deployment Challenges",
       "Project Scoping and Design"
     ],
+    descriptions: false,
     img: COURSERA_CERT1,
   };
 
@@ -284,6 +329,7 @@ function App() {
       "Data Validation",
       "Data Transformation"
     ],
+    descriptions: false,
     img: COURSERA_CERT2,
   };
 
@@ -342,9 +388,8 @@ function App() {
     img:JANOVA_IMG1
   };
 
-
   const ALL_BOOKS = [BOOK1, BOOK4, BOOK2, BOOK3];
-  const ALL_PROJECTS = [PROJECT1, PROJECT2, PROJECT3];
+  const ALL_PROJECTS = [PROJECT4, PROJECT5, PROJECT6, PROJECT1, PROJECT2, PROJECT3];
   const ALL_WORK_EXPERIENCES = [WORK_EXPERIENCE4, WORK_EXPERIENCE3,  WORK_EXPERIENCE2];
   const ALL_CERTIFICATIONS = [CERTIFICATION4, CERTIFICATION3, CERTIFICATION2, CERTIFICATION1];
 
@@ -433,13 +478,14 @@ function App() {
 
   const handleProjects = () => {
     let out = [];
-    for (let { name, href, technologies, img } of ALL_PROJECTS)
+    for (let { name, href, technologies, img, descriptions } of ALL_PROJECTS)
       out.push(
         <Project
           name={name}
           href={href}
           technologies={technologies}
           img={img}
+          descriptions={descriptions}
         />
       );
 
@@ -499,9 +545,16 @@ function App() {
         <div className="header-left">
           <h1 className="title"> Victor Samsonov</h1>
           <p className="sub-title">
-            B.S In Computer Science
+            B.S. In Computer Science
+            <br/>
+            3.80/4.0 GPA
             <br />
-            M.S In Artificial Intelligence
+            M.S. In Artificial Intelligence
+            <br/>
+            4.0/4.0 GPA
+            <br/>
+            Graduating Dec. 2023
+
           </p>
         </div>
         <Header/>
@@ -513,13 +566,12 @@ function App() {
           of Technology currently pursuing both my Bachelor's in Computer
           Science and my Master's in Artificial Intelligence (set to graduate in
           2023, completing both degrees in 4 years). My main area of focus
-          currently lies in Data Science and AI, a field that I'm passionate about and
-          exploring every single day, with the hope of one day reaching my full
-          potential. <br />
+          currently lies in Data Science and AI.
+         <br />
         </p>
         <p className="section-text">
-          I am a highly motivated and selfless Individual that always aims to do
-          what is best for the team, in order to facilitate a successful
+          I am a highly motivated, team-oriented, and selfless Individual that always aims to do
+          what is best for the team, in order to promote a successful
           environment. I enjoy getting challenged and pushing myself not only to
           improve as an AI practitioner but also as an individual.
         </p>

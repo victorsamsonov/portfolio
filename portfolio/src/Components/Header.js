@@ -10,7 +10,7 @@ function Header({ vals, onClick, buttonsDisabled }) {
   return <div className="header-wrapper">
     <Typical
         className="typed-title"
-        steps={['Data Scientist', 0, 'Data Scientist Practitioner based in Chicago', 100]}
+        steps={['AI', 0, 'AI Practitioner based in Chicago', 100]}
         wrapper="b"
         loop={1}
       />

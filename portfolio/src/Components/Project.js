@@ -5,9 +5,10 @@ const Project = ({
   name = "Lorem Ipsum",
   href,
   technologies = [],
-  img,
+  descriptions=false,
+  img
 }) => {
-
+  
   const handleTechnologies = () => {
     let out = [];
     for (let technology of technologies)
@@ -25,7 +26,13 @@ const Project = ({
       <a href={href} className="certification-name" target="_blank">
         {name}
       </a>
-      <text className="certification-technology-text"> Technologies:</text>
+      {<>
+      desciptions ? <text className="we-technology-text"> What I did:</text>
+        {handleDescription()} : <></>
+      
+      </>
+}
+      <text className="certification-technology-text"> Technlogies:</text>
       <div className="certification-subcontainer">
         {handleTechnologies()}
         <div className="certification-img-wrapper">
