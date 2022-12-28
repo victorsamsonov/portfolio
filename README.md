@@ -1,2 +1,2 @@
-# portfolio
-My Portfolio featuring what I do, Projects, Certifications, and a Blog
+# portfolio 🔥🔥
+My Portfolio featuring what I do, Projects, Certifications, and a Blog (Hopefully soon)
