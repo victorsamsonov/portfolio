@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25b02d07.css",
-    "main.js": "/portfolio/static/js/main.3659e758.js",
+    "main.js": "/portfolio/static/js/main.d26d1969.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/JanovaGMBH.PNG": "/portfolio/static/media/JanovaGMBH.5332a926a806ac949bca.PNG",
     "static/media/img3.jpg": "/portfolio/static/media/img3.eaec6776300558a224de.jpg",
+    "static/media/After SE.PNG": "/portfolio/static/media/After SE.842133393e4242d6e186.PNG",
     "static/media/Python ML.jpg": "/portfolio/static/media/Python ML.b0eac17e051d2471a36c.jpg",
     "static/media/EVIGPR.PNG": "/portfolio/static/media/EVIGPR.8a70f8dd976fde90c40c.PNG",
     "static/media/Coursera1.PNG": "/portfolio/static/media/Coursera1.307a35963b6222fa3c63.PNG",
@@ -15,9 +16,11 @@
     "static/media/Udemy-DL.PNG": "/portfolio/static/media/Udemy-DL.9d52eeb034e04536d47a.PNG",
     "static/media/Python Data Science.png": "/portfolio/static/media/Python Data Science.eaa4ace7d6a50512f515.png",
     "static/media/Udemy-ML.PNG": "/portfolio/static/media/Udemy-ML.dd2d898f41eadc95540e.PNG",
+    "static/media/dlrm.png": "/portfolio/static/media/dlrm.c101cec655b34fca5f60.png",
     "static/media/pathfinding-visualizer.PNG": "/portfolio/static/media/pathfinding-visualizer.27f4ee857eb739d1a26e.PNG",
     "static/media/Sudoku.PNG": "/portfolio/static/media/Sudoku.0fbc7aa28086dbc1353d.PNG",
     "static/media/scikit-learn.png": "/portfolio/static/media/scikit-learn.badd957ac15b0c4bf695.png",
+    "static/media/KagglePlot.PNG": "/portfolio/static/media/KagglePlot.69b334a37e0280c618a2.PNG",
     "static/media/EVI.PNG": "/portfolio/static/media/EVI.b67dd644a9d26480fa6f.PNG",
     "static/media/HTML and CSS.png": "/portfolio/static/media/HTML and CSS.fdd549b973755aa0351e.png",
     "static/media/new-linkedin-logo-white-black-png.png": "/portfolio/static/media/new-linkedin-logo-white-black-png.ba884e1f9ad4362348c1.png",
@@ -28,11 +31,11 @@
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/portfolio/index.html",
     "main.25b02d07.css.map": "/portfolio/static/css/main.25b02d07.css.map",
-    "main.3659e758.js.map": "/portfolio/static/js/main.3659e758.js.map",
+    "main.d26d1969.js.map": "/portfolio/static/js/main.d26d1969.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25b02d07.css",
-    "static/js/main.3659e758.js"
+    "static/js/main.d26d1969.js"
   ]
 }
