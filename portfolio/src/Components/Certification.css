@@ -18,11 +18,30 @@
     transition: 0.5s;
 }
 
+.certification-container-2 {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px green;
+    margin:2% 7.5%;
+    padding: 1rem 0;
+    border-radius: 0.35rem;
+    text-align: left;
+    border-width: 0.2rem;
+    border-color: #30C785;
+    background-color: rgb(9, 45, 79);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.certification-container-2:hover {
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
 .certification-name {
     font-size: 1.75rem;
-    color: #56BBF1;
+    color: #30C785;
     margin-left: 1%;
-    font-weight: 500;
     transition: 0.25s;
     margin: 0 5%;
 }
@@ -39,7 +58,7 @@
 }
 
 .certification-technology-text {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color:#30C785;
     margin-top: 1.5%;
     margin-left: 3%;
@@ -96,11 +115,11 @@
     }
 
     .certification-technology-text {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .certification-technology {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 
     .work-img {
@@ -120,7 +139,7 @@
     }
 
     .certification-technology-text {
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
 
     .certification-technology {

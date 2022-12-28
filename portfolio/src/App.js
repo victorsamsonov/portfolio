@@ -10,6 +10,8 @@ import Book from "./Components/Book";
 
 const UDEMY_CERT1 = require("./Components/images/Udemy-ML.PNG");
 const UDEMY_CERT2 = require("./Components/images/Udemy-DL.PNG");
+const COURSERA_CERT1 = require("./Components/images/Coursera1.PNG")
+const COURSERA_CERT2 = require("./Components/images/Coursera2.PNG")
 const PATHFINDING_IMG = require("./Components/images/pathfinding-visualizer.PNG");
 const SUDOKU_IMG = require("./Components/images/Sudoku.PNG");
 const BOOK_PDSH = require("./Components/images/Python Data Science.png");
@@ -19,6 +21,9 @@ const BOOK_100PAGE = require("./Components/images/100Page.jpg");
 const SORTING_IMG = require("./Components/images/sorting-visualizer.PNG");
 const PERKUNO_IMG1 = require("./Components/images/img2.png");
 const PERKUNO_IMG2 = require("./Components/images/img3.jpg");
+const IIT_RESEARCH_IMG1 = require("./Components/images/EVI.PNG");
+const IIT_RESEARCH_IMG2 = require("./Components/images/EVIGPR.PNG");
+const JANOVA_IMG1 = require("./Components/images/JanovaGMBH.PNG");
 function App() {
   const ABOUT_ME = "About Me";
   const TECHNOLOGIES_SKILLS = "Technologies and Skills";
@@ -229,7 +234,7 @@ function App() {
   };
 
   const CERTIFICATION1 = {
-    name: "Machine Learning A-Z: Hands-On Python & R In Data Science (44.5 hours)",
+    name: "Machine Learning A-Z: Hands-On Python & R In Data Science",
     href: "https://www.udemy.com/certificate/UC-788d256d-355f-4933-b50d-535d6a4d8915/",
     technologies: [
       "Python",
@@ -243,7 +248,7 @@ function App() {
   };
 
   const CERTIFICATION2 = {
-    name: "Deep Learning A-Z: Hands-On Artificial Neural Networks      (22.5 hours)",
+    name: "Deep Learning A-Z: Hands-On Artificial Neural Networks",
     href: "https://www.udemy.com/certificate/UC-eefc8a0f-1e7e-48d6-90fd-3e6178b3176c/",
     technologies: [
       "Python",
@@ -257,16 +262,41 @@ function App() {
     img: UDEMY_CERT2,
   };
 
-  const WORK_EXPERIENCE1 = {
-    name: "Part-Time Developer (Machine Learning Focused) @ EKI-Digital, January – March 2022",
-    href: "https://www.eki-digital.com/",
-    technologies: ["Azure ML", "Python", "scikit-learn", "TensorFlow"],
-    descriptions: [
-      "Used Azure ML and Python to develop scripts and models with the aim of maximizing profits.",
-      "Performed Data Preprocessing and Visualization for several problems that the company was working on",
-      "Worked on Researching some of the latest Neural Network architectures (SqueezeNet and AlexNet)",
+  const CERTIFICATION3 = {
+    name: "Introduction to Machine Learning in Production",
+    href: "https://www.coursera.org/account/accomplishments/verify/GXZM7YQK5VQE",
+    technologies: [
+      "Machine Learning Lifecycle",
+      "TensorFlow",
+      "ML Deployment Challenges",
+      "Project Scoping and Design"
     ],
+    img: COURSERA_CERT1,
   };
+
+  const CERTIFICATION4 = {
+    name: "Machine Learning Data Lifecycle in Production",
+    href: "https://www.coursera.org/account/accomplishments/verify/QWWGX9UZG7CP",
+    technologies: [
+      "ML Metadata",
+      "Convolutional Neural Networks",
+      "TensorFlow Extended (TFX)",
+      "Data Validation",
+      "Data Transformation"
+    ],
+    img: COURSERA_CERT2,
+  };
+
+  // const WORK_EXPERIENCE1 = {
+  //   name: "Part-Time Developer (Machine Learning Focused) @ EKI-Digital, January – March 2022",
+  //   href: "https://www.eki-digital.com/",
+  //   technologies: ["Azure ML", "Python", "scikit-learn", "TensorFlow"],
+  //   descriptions: [
+  //     "Used Azure ML and Python to develop scripts and models with the aim of maximizing profits.",
+  //     "Performed Data Preprocessing and Visualization for several problems that the company was working on",
+  //     "Worked on Researching some of the latest Neural Network architectures (SqueezeNet and AlexNet)",
+  //   ],
+  // };
 
   const WORK_EXPERIENCE2 = {
     name: "Volunteer Front-End Developer @ Perkuno, April 2020 – January 2022 ",
@@ -287,33 +317,36 @@ function App() {
     img2: PERKUNO_IMG1,
   };
 
-  const WORK_EXPERIENCE3 = {
-    name: "Data Science and Computational Mathematics Student Researcher @ Illinois Institute of Technology, May 2022 – Current",
+  const WORK_EXPERIENCE4 = {
+    name: "Research Assistant (Data Science and Computational Mathematics) @ Illinois Tech Department of Mathematics, May 2022 - Dec 2022",
     href: "https://www.iit.edu/computing/research/student-research/SURE",
     technologies: ["Research", "PyTorch", "GPyTorch", "Python", "Bayesian Statistics", "Partial Differential Equations"],
     descriptions: [
-      "Worked with a team of professors on the topic of “Energetic Variational Inference Gaussian Process Regression for Computer Experiments”",
-      "Created simulations ranging from simple toy problems to borehole computer experiments with PyTorch which will be showcased in a book chapter",
-      "Participated in biweekly meetings and presented my contributions and progress to the IIT College of Computing",
+      "Worked with a group of professors on the topic of “Energetic Variational Gaussian Process Regression",
+      "Created simulations ranging from linear data to complex borehole with PyTorch and GPyTorch Achieved MAE of 6.8.",
+      "Contributed to biweekly meetings and presented results to the IIT College of Computing"
     ],
+    img: IIT_RESEARCH_IMG2,
+    img2: IIT_RESEARCH_IMG1,
   };
 
-  const WORK_EXPERIENCE4 = {
-    name: "AI Engineer Intern @ Janova, July 2022 – Current",
+  const WORK_EXPERIENCE3 = {
+    name: "Artificial Intelligence Developer Intern @ Janova GMBH, May 2022 – Aug 2022",
     href: "https://janova.app/en/",
     technologies: ["Azure ML", "Azure Blob Storage", "Python", "TensorFlow",],
     descriptions: [
-      "Closely worked with a team of Software Engineers and AI Engineers on developing AI solutions for a smart table tennis racket that tracks the players progress and analyzes the technique of the user",
-      "Worked on improving the Data Processing pipeline and Model Architecture. Also had the responsibility to write test cases",
-      "Performed Data Augmentation by rotating the axis of the data, which resulted in doubling the training data available for both left and right-handed players, and improved the model accuracy",
+      "	Used Python, Tensorflow, Azure ML, and Azure Blob Storage to develop AI solutions for a smart table tennis racket that tracks the players progress and analyzes their technique.",
+      "Improved the Data Processing pipeline by performing data augmentation and implemented a DNN for hit and type of swing detection, achieving 98.9% accuracy resulting in a successful demo and winning the Berlin Startup-Night.",
+      "Implemented the Versatile Quaternion Filter in a weakly supervised learning context for IMU pose estimation (5.32° RMSE)."
     ],
+    img:JANOVA_IMG1
   };
 
 
   const ALL_BOOKS = [BOOK1, BOOK4, BOOK2, BOOK3];
   const ALL_PROJECTS = [PROJECT1, PROJECT2, PROJECT3];
-  const ALL_WORK_EXPERIENCES = [WORK_EXPERIENCE4, WORK_EXPERIENCE3, WORK_EXPERIENCE1, WORK_EXPERIENCE2];
-  const ALL_CERTIFICATIONS = [CERTIFICATION2, CERTIFICATION1];
+  const ALL_WORK_EXPERIENCES = [WORK_EXPERIENCE4, WORK_EXPERIENCE3,  WORK_EXPERIENCE2];
+  const ALL_CERTIFICATIONS = [CERTIFICATION4, CERTIFICATION3, CERTIFICATION2, CERTIFICATION1];
 
   const proficient_list = () => {
     // let PROFICIENT = ['Python', 'Flask', 'TensorFlow', 'MySQL', 'React and React Native', 'JavaScript', 'scikit-learn']
@@ -381,16 +414,20 @@ function App() {
 
   const handleCertifications = () => {
     let out = [];
-    for (let { name, href, technologies, img } of ALL_CERTIFICATIONS)
+    let i = 0;
+    for (let { name, href, technologies, img } of ALL_CERTIFICATIONS){
+      let primary_col = i % 2;
       out.push(
         <Certification
           name={name}
           href={href}
           technologies={technologies}
           img={img}
+          primary_col={primary_col}
         />
       );
-
+      i++;
+    }
     return <div>{out}</div>;
   };
 
@@ -467,7 +504,7 @@ function App() {
             M.S In Artificial Intelligence
           </p>
         </div>
-        <Header />
+        <Header/>
       </header>
       <section className="body">
         <SectionTitle title={ABOUT_ME} bg={BG1} color="white" />
