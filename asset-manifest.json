@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.25b02d07.css",
+    "main.css": "/portfolio/static/css/main.ea94661a.css",
     "main.js": "/portfolio/static/js/main.9d75fa9d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/JanovaGMBH.PNG": "/portfolio/static/media/JanovaGMBH.5332a926a806ac949bca.PNG",
@@ -30,12 +30,12 @@
     "static/media/100Page.jpg": "/portfolio/static/media/100Page.4783a3212f8c8710fd1f.jpg",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/portfolio/index.html",
-    "main.25b02d07.css.map": "/portfolio/static/css/main.25b02d07.css.map",
+    "main.ea94661a.css.map": "/portfolio/static/css/main.ea94661a.css.map",
     "main.9d75fa9d.js.map": "/portfolio/static/js/main.9d75fa9d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25b02d07.css",
+    "static/css/main.ea94661a.css",
     "static/js/main.9d75fa9d.js"
   ]
 }
