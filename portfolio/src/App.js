@@ -27,6 +27,7 @@ const PERKUNO_IMG2 = require("./Components/images/img3.jpg");
 const IIT_RESEARCH_IMG1 = require("./Components/images/EVI.PNG");
 const IIT_RESEARCH_IMG2 = require("./Components/images/EVIGPR.PNG");
 const JANOVA_IMG1 = require("./Components/images/JanovaGMBH.PNG");
+
 function App() {
   const ABOUT_ME = "About Me";
   const TECHNOLOGIES_SKILLS = "Technologies and Skills";
@@ -213,7 +214,7 @@ function App() {
       "Algorithms",
     ],
     img: PATHFINDING_IMG,
-    descriptions:[]
+    // descriptions:[]
   };
 
   const PROJECT1 = {
@@ -228,7 +229,7 @@ function App() {
       "Algorithms",
     ],
     img: SORTING_IMG,
-    descriptions:[]
+    // descriptions:[]
   };
 
   const PROJECT3 = {
@@ -236,13 +237,13 @@ function App() {
     href: "https://github.com/victorsamsonov/Python-Random-Sudoku-Generator",
     technologies: ["Python", "Pygame", "Git", "Algorithms"],
     img: SUDOKU_IMG,
-    descriptions:[]
+    // descriptions:[]
   };
 
   const PROJECT4 = {
     name: "Squeeze and Excitation Networks, Deep Learning Project",
     href: "",
-    technologies: ["Python", "PyTorch", "Deep Learning", "ResNet-50"],
+    technologies: ["Python", "PyTorch", "Deep Learning", "CNN", "ResNet-50"],
     img: SEN_IMG,
     descriptions: [
       "	Used Python, Tensorflow, Azure ML, and Azure Blob Storage to develop AI solutions for a smart table tennis racket that tracks the players progress and analyzes their technique.",
