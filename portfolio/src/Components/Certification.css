@@ -103,6 +103,7 @@
 .certification-img {
     width: 100%;
     margin-right:5rem;
+    margin-top: 15%
 }
 
 @media (max-width: 1200px) {
@@ -127,6 +128,7 @@
         margin-right:4rem;
         margin-bottom: 1rem;
         max-width: 250px;
+        margin-top: 1rem;
     }
     
 }
@@ -149,8 +151,9 @@
     .work-img {
         width: 90%;
         margin-right:3rem;
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
         max-width: 200px;
+        margin-top:0.75rem
     }
 
 }
