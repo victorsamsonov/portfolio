@@ -246,9 +246,9 @@ function App() {
     technologies: ["Python", "PyTorch", "Deep Learning", "CNN", "ResNet-50"],
     img: SEN_IMG,
     descriptions: [
-      "	Used Python, Tensorflow, Azure ML, and Azure Blob Storage to develop AI solutions for a smart table tennis racket that tracks the players progress and analyzes their technique.",
-      "Improved the Data Processing pipeline by performing data augmentation and implemented a DNN for hit and type of swing detection, achieving 98.9% accuracy resulting in a successful demo and winning the Berlin Startup-Night.",
-      "Implemented the Versatile Quaternion Filter in a weakly supervised learning context for IMU pose estimation (5.32° RMSE)."
+      "Used Python and PyTorch to implement a SOTA Neural Network.",
+      "Implemented Squeeze and Excitation steps which recalibrate the channel-wise feature map. Devised a final 10-page report in LaTeX.",
+      "Evaluated and compared the performance between ResNet-50 and SE-ResNet-50, which resulted in a 21.3% increase in accuracy on the testing set."
     ],
   };
 
