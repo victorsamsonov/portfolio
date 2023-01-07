@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ea94661a.css",
-    "main.js": "/portfolio/static/js/main.59bc4124.js",
+    "main.js": "/portfolio/static/js/main.9ef229e9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/JanovaGMBH.PNG": "/portfolio/static/media/JanovaGMBH.5332a926a806ac949bca.PNG",
+    "static/media/sumo.PNG": "/portfolio/static/media/sumo.18c6591c80ffcabfc73a.PNG",
     "static/media/img3.jpg": "/portfolio/static/media/img3.eaec6776300558a224de.jpg",
     "static/media/After SE.PNG": "/portfolio/static/media/After SE.842133393e4242d6e186.PNG",
     "static/media/Python ML.jpg": "/portfolio/static/media/Python ML.b0eac17e051d2471a36c.jpg",
     "static/media/EVIGPR.PNG": "/portfolio/static/media/EVIGPR.8a70f8dd976fde90c40c.PNG",
     "static/media/Coursera1.PNG": "/portfolio/static/media/Coursera1.307a35963b6222fa3c63.PNG",
     "static/media/Coursera2.PNG": "/portfolio/static/media/Coursera2.e13c502035f21bbc7e2f.PNG",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.cf8aa82027482e36def2.pdf",
     "static/media/img2.png": "/portfolio/static/media/img2.3092e841573266e0ba45.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.9435ff79d8ae42897ec0.pdf",
     "static/media/sorting-visualizer.PNG": "/portfolio/static/media/sorting-visualizer.13508c5ceb1fc9d47ecf.PNG",
     "static/media/Udemy-DL.PNG": "/portfolio/static/media/Udemy-DL.9d52eeb034e04536d47a.PNG",
     "static/media/Python Data Science.png": "/portfolio/static/media/Python Data Science.eaa4ace7d6a50512f515.png",
@@ -31,11 +32,11 @@
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.9a1a7f8162140e296345.png",
     "index.html": "/portfolio/index.html",
     "main.ea94661a.css.map": "/portfolio/static/css/main.ea94661a.css.map",
-    "main.59bc4124.js.map": "/portfolio/static/js/main.59bc4124.js.map",
+    "main.9ef229e9.js.map": "/portfolio/static/js/main.9ef229e9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea94661a.css",
-    "static/js/main.59bc4124.js"
+    "static/js/main.9ef229e9.js"
   ]
 }
