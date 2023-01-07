@@ -27,6 +27,7 @@ const PERKUNO_IMG2 = require("./Components/images/img3.jpg");
 const IIT_RESEARCH_IMG1 = require("./Components/images/EVI.PNG");
 const IIT_RESEARCH_IMG2 = require("./Components/images/EVIGPR.PNG");
 const JANOVA_IMG1 = require("./Components/images/JanovaGMBH.PNG");
+const SUMO_IMG = require("./Components/images/sumo.PNG");
 
 function App() {
   const ABOUT_ME = "About Me";
@@ -276,6 +277,20 @@ function App() {
     ],
   };
 
+
+  const PROJECT7 = {
+    name: "“SUMO” HackRice 11, Software Engineering and NLP Project 2021",
+    href: "https://devpost.com/software/sumo",
+    technologies: ["Python", "Flask", "React", "Google Cloud", "Azure"],
+    img: SUMO_IMG,
+    descriptions: [
+      "Participated in a hackathon hosted by Rice university earning an honorable mention among more than 200 participants.",
+      "Implemented an NLP application which summarizes video lectures for students.",
+      "Used React.js for the Frontend. Google Cloud, Azure extractive summarization API and Flask were used in the Backend."
+    ],
+  };
+  // https://devpost.com/software/sumo
+
   const CERTIFICATION1 = {
     name: "Machine Learning A-Z: Hands-On Python & R In Data Science",
     href: "https://www.udemy.com/certificate/UC-788d256d-355f-4933-b50d-535d6a4d8915/",
@@ -358,7 +373,7 @@ function App() {
     descriptions: [
       "Used React Native to implement screens, components, animations, state management and improved the Android version of a Stocks and Trading App.",
       "Lead the Front-End team in completing all tasks on time, resulting in the App placing top 5 among 200 competitors in the analysis report.",
-      "Implemented the Machine Learning regression algorithm for predicting Stock Prices.",
+      "Devised a Neural Network architecture for time series stock prediction.",
     ],
     img: PERKUNO_IMG2,
     img2: PERKUNO_IMG1,
@@ -390,7 +405,7 @@ function App() {
   };
 
   const ALL_BOOKS = [BOOK1, BOOK4, BOOK2, BOOK3];
-  const ALL_PROJECTS = [PROJECT4, PROJECT5, PROJECT6, PROJECT1, PROJECT2, PROJECT3];
+  const ALL_PROJECTS = [PROJECT4, PROJECT5, PROJECT6, PROJECT1, PROJECT7, PROJECT2, PROJECT3];
   const ALL_WORK_EXPERIENCES = [WORK_EXPERIENCE4, WORK_EXPERIENCE3,  WORK_EXPERIENCE2];
   const ALL_CERTIFICATIONS = [CERTIFICATION4, CERTIFICATION3, CERTIFICATION2, CERTIFICATION1];
 
