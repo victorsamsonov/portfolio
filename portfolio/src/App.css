@@ -157,10 +157,20 @@ p {
   transition: 0.2s;
 }
 
+.medium-img-container {
+  width: 38%;
+}
+
 .medium-img {
-  width: 40%;
+  width: 100%;
   margin: 1rem 0.5rem;
   z-index: 100000;
+  transition: 0.5s
+}
+
+.medium-img:hover {
+  opacity: 0.9;
+  transition: 0.5s;
 }
 
 .about-me-images {
@@ -240,6 +250,15 @@ a text {
 .sl {
   width: 128px;
 }
+
+.lc {
+  width: 128px;
+}
+
+.k8 {
+  width: 128px;
+}
+
 
 .pt {
   height: 74px;
@@ -321,6 +340,10 @@ a text {
   margin-right: 7.5%;
 }
 
+.email {
+  color: rgb(15, 153, 245)
+}
+
 .box-area {
   top: 0;
   left: 0;
@@ -373,6 +396,14 @@ a text {
 
   .pt {
     height: 60px;
+  }
+
+  .lc {
+    width: 108px;
+  }
+
+  .k8 {
+    width: 100px;
   }
 
   .ts-bullets {
@@ -486,6 +517,14 @@ a text {
 
   .pt {
     height: 50px;
+  }
+
+  .lc {
+    width: 96px;
+  }
+
+  .k8 {
+    width: 90px;
   }
 
   .ts-bullets {

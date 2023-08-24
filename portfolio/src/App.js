@@ -10,8 +10,10 @@ import Book from "./Components/Book";
 
 const UDEMY_CERT1 = require("./Components/images/Udemy-ML.PNG");
 const UDEMY_CERT2 = require("./Components/images/Udemy-DL.PNG");
-const COURSERA_CERT1 = require("./Components/images/Coursera1.PNG")
-const COURSERA_CERT2 = require("./Components/images/Coursera2.PNG")
+const COURSERA_CERT1 = require("./Components/images/Coursera1.PNG");
+const COURSERA_CERT2 = require("./Components/images/Coursera2.PNG");
+const COURSERA_SPEC1 = require("./Components/images/Coursera5.PNG");
+const GOOGLE_CERT1 = require("./Components/images/Google1.PNG");
 const PATHFINDING_IMG = require("./Components/images/pathfinding-visualizer.PNG");
 const SUDOKU_IMG = require("./Components/images/Sudoku.PNG");
 const SEN_IMG = require("./Components/images/After SE.PNG");
@@ -28,6 +30,8 @@ const IIT_RESEARCH_IMG1 = require("./Components/images/EVI.PNG");
 const IIT_RESEARCH_IMG2 = require("./Components/images/EVIGPR.PNG");
 const JANOVA_IMG1 = require("./Components/images/JanovaGMBH.PNG");
 const SUMO_IMG = require("./Components/images/sumo.PNG");
+const CCC_IMG = require("./Components/images/CCC.png");
+const KAPLAN_IMG = require("./Components/images/Kaplan_stuff.png");
 
 function App() {
   const ABOUT_ME = "About Me";
@@ -48,10 +52,11 @@ function App() {
     "JavaScript",
     "React and React Native",
     "HTML and CSS",
+    "LangChain and Chroma",
+    "Flask",
   ];
 
   const FAMILIAR = [
-    "Flask",
     "C",
     "Java",
     "Haskell",
@@ -59,8 +64,12 @@ function App() {
     "Racket",
     "Node JS",
     "TypeScript",
+    "Docker",
+    "Kubernetes",
+    "Azure",
+    "aws",
   ];
- 
+
   const BOOK1 = {
     name: "Python Data Science Handbook",
     href: "https://www.oreilly.com/library/view/python-data-science/9781491912126/",
@@ -71,22 +80,23 @@ function App() {
         When I became interested in the field of Data Science and after
         completing several online courses, I found out that I lacked knowledge
         in certain libraries such as Numpy, Matplotlib, and Pandas. As a result
-        I started seeking books that would not only provide me with the
-        tools to become familiar with these instruments but also cover Data
-        Science to a certain extent. One of the most recommended books was this
-        one in particular and It was definitely worth the read. The book is
-        separated into 4 main sections which mainly cover: IPython (the
-        shortest section which I skipped), Numpy, Pandas, Matplotlib, and
-        Machine Learning. Each of these sections provides the reader with gentle
-        introductions with corresponding code snippets.
+        I started seeking books that would not only provide me with the tools to
+        become familiar with these instruments but also cover Data Science to a
+        certain extent. One of the most recommended books was this one in
+        particular and It was definitely worth the read. The book is separated
+        into 4 main sections which mainly cover: IPython (the shortest section
+        which I skipped), Numpy, Pandas, Matplotlib, and Machine Learning. Each
+        of these sections provides the reader with gentle introductions with
+        corresponding code snippets.
         <br />
         <br />I am glad to have read this book since a large portion of Machine
-        Learning and Deep Learning involves data preprocessing, a topic that this book covers in depth. I recommend this
-        book to anyone that has some basic programming experience and that is
-        interested to take their first step into the field of Data Science. You
-        will learn Broadcasting rules, Data frame operations, Data Processing
-        Methods, Data Visualization, and very basic implementations of Machine
-        Learning Algorithms scikit-learn for the most part.
+        Learning and Deep Learning involves data preprocessing, a topic that
+        this book covers in depth. I recommend this book to anyone that has some
+        basic programming experience and that is interested to take their first
+        step into the field of Data Science. You will learn Broadcasting rules,
+        Data frame operations, Data Processing Methods, Data Visualization, and
+        very basic implementations of Machine Learning Algorithms scikit-learn
+        for the most part.
       </text>
     ),
   };
@@ -112,14 +122,15 @@ function App() {
         <br />
         <br />
         This book is perfect for beginners in the field and will give you all
-        the tools you need to tackle ML problems and gain the necessary experience
-        through projects. Even if you don't understand the math, I am certain
-        that you will find great value in this book since scikit-learn and Keras
-        are high-level APIs that allow you to "skip" the math, although It
-        would still be a good idea to polish this aspect in the future, especially if 
-        mathematics is not your strong suit. This book is a must read and it is no
-        surprise that it's often considered the bible of Machine Learning along
-        with Deep Learning by Yoshua Bengio. YOU MUST READ THIS BOOK!
+        the tools you need to tackle ML problems and gain the necessary
+        experience through projects. Even if you don't understand the math, I am
+        certain that you will find great value in this book since scikit-learn
+        and Keras are high-level APIs that allow you to "skip" the math,
+        although It would still be a good idea to polish this aspect in the
+        future, especially if mathematics is not your strong suit. This book is
+        a must read and it is no surprise that it's often considered the bible
+        of Machine Learning along with Deep Learning by Yoshua Bengio. YOU MUST
+        READ THIS BOOK!
       </text>
     ),
   };
@@ -159,14 +170,16 @@ function App() {
         title until you get a high-level understanding of both ML and DL, since
         it will help you understand and make good use of this book, also make
         sure you have the math required since the book more than teaching you
-        the math, it provides a "review". I also think that the authors should have
-        used a slightly more conventional mathematical notation given that this
-        is intended for beginners. Overall, I think this is a great book for the
-        following types of individuals: those that possess a strong mathematical
-        foundation willing to get into DL, very motivated undergraduate students enrolled in CS or a related field, and students pursuing a Master's in a related
-        field. I also wouldn't be surprised if a person in the initial stages of
-        their Ph.D was able to extract useful information from this book since
-        as previously stated this publication is very detailed and has rigor.
+        the math, it provides a "review". I also think that the authors should
+        have used a slightly more conventional mathematical notation given that
+        this is intended for beginners. Overall, I think this is a great book
+        for the following types of individuals: those that possess a strong
+        mathematical foundation willing to get into DL, very motivated
+        undergraduate students enrolled in CS or a related field, and students
+        pursuing a Master's in a related field. I also wouldn't be surprised if
+        a person in the initial stages of their Ph.D was able to extract useful
+        information from this book since as previously stated this publication
+        is very detailed and has rigor.
       </text>
     ),
   };
@@ -193,12 +206,12 @@ function App() {
         Overall, I would recommend this book for those that have some basic
         understanding in Machine Learning since this isn't exactly a book for a
         beginner to learn the details (the book is short so it is hard to
-        provide very detailed explanations, which makes sense), but it
-        seems like the perfect tool to read before a job interview or to refresh
-        some concepts, especially since you can read this publication in one
-        sitting. I can strongly say that it is a must have for any Data Scientist. The book is available
-        for free online and if you like it, you can buy it to show the author
-        your apreciation.
+        provide very detailed explanations, which makes sense), but it seems
+        like the perfect tool to read before a job interview or to refresh some
+        concepts, especially since you can read this publication in one sitting.
+        I can strongly say that it is a must have for any Data Scientist. The
+        book is available for free online and if you like it, you can buy it to
+        show the author your apreciation.
       </text>
     ),
   };
@@ -249,7 +262,7 @@ function App() {
     descriptions: [
       "Used Python and PyTorch to implement a SOTA Neural Network.",
       "Implemented Squeeze and Excitation steps which recalibrate the channel-wise feature map. Devised a final 10-page report in LaTeX.",
-      "Evaluated and compared the performance between ResNet-50 and SE-ResNet-50, which resulted in a 21.3% increase in accuracy on the testing set."
+      "Evaluated and compared the performance between ResNet-50 and SE-ResNet-50, which resulted in a 21.3% increase in accuracy on the testing set.",
     ],
   };
 
@@ -261,22 +274,28 @@ function App() {
     descriptions: [
       "Implemented collaborative recommendation systems for the Movie Lens dataset using Python, scikit-learn and TensorFlow.",
       "Implemented multiple Deep Learning Recommendation systems with Embedding layer. Achieved MAE of 0.741.",
-      "Presented results in a detailed 8-page final report (EDA, model performance, training and validation plots, performance, etc.)."
+      "Presented results in a detailed 8-page final report (EDA, model performance, training and validation plots, performance, etc.).",
     ],
   };
 
   const PROJECT6 = {
     name: "Kaggle Spaceship Titanic Competition EDA | 17 ML models + DNN implementation (Gold Medal Kernel) Jun  2022 – Aug 2022",
     href: "https://www.kaggle.com/code/vicsonsam/sst-eda-17-models-dl-top-7",
-    technologies: ["Python", "TensorFlow", "scikit-learn", "EDA", "Feature Selection", "Feature Engineering"],
+    technologies: [
+      "Python",
+      "TensorFlow",
+      "scikit-learn",
+      "EDA",
+      "Feature Selection",
+      "Feature Engineering",
+    ],
     img: KAGGLE,
     descriptions: [
       "Participated in a Kaggle Competition and achieved top 7% performance, awarding me with the Kaggle Expert rank",
       "Performed in-depth EDA, feature engineering, ensembles, and hyperparameter tuning. Final model resulted in 81% acc.",
-      "Devised a kernel which became the top 20 most upvoted among +3000 submissions."
+      "Devised a kernel which became the top 20 most upvoted among +3000 submissions.",
     ],
   };
-
 
   const PROJECT7 = {
     name: "“SUMO” HackRice 11, Software Engineering and NLP Project 2021",
@@ -286,7 +305,7 @@ function App() {
     descriptions: [
       "Participated in a hackathon hosted by Rice university earning an honorable mention among more than 200 participants.",
       "Implemented an NLP application which summarizes video lectures for students.",
-      "Used React.js for the Frontend. Google Cloud, Azure extractive summarization API and Flask were used in the Backend."
+      "Used React.js for the Frontend. Google Cloud, Azure extractive summarization API and Flask were used in the Backend.",
     ],
   };
   // https://devpost.com/software/sumo
@@ -329,7 +348,7 @@ function App() {
       "Machine Learning Lifecycle",
       "TensorFlow",
       "ML Deployment Challenges",
-      "Project Scoping and Design"
+      "Project Scoping and Design",
     ],
     descriptions: false,
     img: COURSERA_CERT1,
@@ -343,10 +362,38 @@ function App() {
       "Convolutional Neural Networks",
       "TensorFlow Extended (TFX)",
       "Data Validation",
-      "Data Transformation"
+      "Data Transformation",
     ],
     descriptions: false,
     img: COURSERA_CERT2,
+  };
+
+  const CERTIFICATION7 = {
+    name: "Generative AI, Google Cloud",
+    href: "https://www.cloudskillsboost.google/public_profiles/02810dc2-6708-46ec-bcbb-a6167e1cc204",
+    technologies: [
+      "Generative AI",
+      "Google Cloud Generative AI Studio",
+      "Large Language Models",
+      "Image Captioning",
+      "BERT",
+      "Diffusion Models",
+    ],
+    descriptions: false,
+    img: GOOGLE_CERT1,
+  };
+
+  const SPECIALIZATION1 = {
+    name: "Machine Learning Engineering for Production (MLOps)",
+    href: "https://www.coursera.org/account/accomplishments/specialization/62LS9PRU8UX6",
+    technologies: [
+      "Designing an ML production system end-to-end",
+      "Drift, development and deployment",
+      "Data pipelines and data lifecycle",
+      "Maintaining and monitoring systems",
+    ],
+    descriptions: false,
+    img: COURSERA_SPEC1,
   };
 
   // const WORK_EXPERIENCE1 = {
@@ -380,34 +427,108 @@ function App() {
   };
 
   const WORK_EXPERIENCE4 = {
-    name: "Research Assistant (Data Science and Computational Mathematics) @ Illinois Tech Department of Mathematics, May 2022 - Dec 2022",
+    name: "Research Assistant (Data Science and Computational Mathematics) @ Illinois Tech Department of Mathematics, May 2022 - May 2023",
     href: "https://www.iit.edu/computing/research/student-research/SURE",
-    technologies: ["Research", "PyTorch", "GPyTorch", "Python", "Bayesian Statistics", "Partial Differential Equations"],
+    technologies: [
+      "Research",
+      "PyTorch",
+      "GPyTorch",
+      "Python",
+      "Bayesian Statistics",
+      "Partial Differential Equations",
+    ],
     descriptions: [
       "Worked with a group of professors on the topic of “Energetic Variational Gaussian Process Regression",
       "Created simulations ranging from linear data to complex borehole with PyTorch and GPyTorch Achieved MAE of 6.8.",
-      "Contributed to biweekly meetings and presented results to the IIT College of Computing"
+      "Contributed to biweekly meetings and presented results to the IIT College of Computing",
     ],
     img: IIT_RESEARCH_IMG2,
     img2: IIT_RESEARCH_IMG1,
   };
 
   const WORK_EXPERIENCE3 = {
-    name: "Artificial Intelligence Developer Intern @ Janova GMBH, May 2022 – Aug 2022",
+    name: "Artificial Intelligence Engineer Intern @ Janova GMBH, May 2022 – Aug 2022",
     href: "https://janova.app/en/",
-    technologies: ["Azure ML", "Azure Blob Storage", "Python", "TensorFlow",],
+    technologies: ["Azure ML", "Azure Blob Storage", "Python", "TensorFlow"],
     descriptions: [
       "	Used Python, Tensorflow, Azure ML, and Azure Blob Storage to develop AI solutions for a smart table tennis racket that tracks the players progress and analyzes their technique.",
       "Improved the Data Processing pipeline by performing data augmentation and implemented a DNN for hit and type of swing detection, achieving 98.9% accuracy resulting in a successful demo and winning the Berlin Startup-Night.",
-      "Implemented the Versatile Quaternion Filter in a weakly supervised learning context for IMU pose estimation (5.32° RMSE)."
+      "Implemented the Versatile Quaternion Filter in a weakly supervised learning context for IMU pose estimation (5.32° RMSE).",
     ],
-    img:JANOVA_IMG1
+    img: JANOVA_IMG1,
+  };
+
+  const WORK_EXPERIENCE5 = {
+    name: "Data Science R&D Intern @ CCC Intelligent Solutions, May 2023 – Current",
+    href: "https://cccis.com/",
+    technologies: [
+      "Python",
+      "PyTorch",
+      "TensorFlow and Keras",
+      "transformers",
+      "LangChain",
+      "AWS",
+      "Azure",
+      "React.js",
+      "Flask",
+      "JavaScript",
+    ],
+    descriptions: [
+      "	Full Stack Data Science internship focusing on cutting-edge projects using LangChain, AWS, Azure, PyTorch and transformers libraries within an auto-insurance and medical claim context. Estimated to have a $1,000,000 dollar impact. Created a Full Stack AI app with NLP, CV, and LLM features. Also worked on an end-to-end time series forecasting transformers for claim cost prediction targeting different car models with sMAPE 0.06.",
+    ],
+    img: CCC_IMG,
+  };
+
+  // https://www.iit.edu/kaplan
+
+  const WORK_EXPERIENCE6 = {
+    name: "Software Engineer Machine Learning Intern @ Kaplan Institute, May July – Current",
+    href: "https://www.iit.edu/kaplan",
+    technologies: [
+      "Python",
+      "PyTorch",
+      "TensorFlow and Keras",
+      "transformers",
+      "LangChain",
+      "AWS",
+      "Azure",
+      "React.js",
+      "Flask",
+      "JavaScript",
+    ],
+    descriptions: [
+      "	Led a team of Professors and Graduate students to develop a Full-stack AI app for automating class registration at Illinois Tech. Devised a hybrid recommender system for suggesting students the best course for them to graduate on time/early. Implemented an analytics tool for students to view grade distributions in a given course. Used React, Flask, AWS, LLMs, and PyTorch",
+    ],
+    img: KAPLAN_IMG,
   };
 
   const ALL_BOOKS = [BOOK1, BOOK4, BOOK2, BOOK3];
-  const ALL_PROJECTS = [PROJECT4, PROJECT5, PROJECT6, PROJECT1, PROJECT7, PROJECT2, PROJECT3];
-  const ALL_WORK_EXPERIENCES = [WORK_EXPERIENCE4, WORK_EXPERIENCE3,  WORK_EXPERIENCE2];
-  const ALL_CERTIFICATIONS = [CERTIFICATION4, CERTIFICATION3, CERTIFICATION2, CERTIFICATION1];
+  const ALL_PROJECTS = [
+    PROJECT4,
+    PROJECT5,
+    PROJECT6,
+    PROJECT1,
+    PROJECT7,
+    PROJECT2,
+    PROJECT3,
+  ];
+
+  const ALL_WORK_EXPERIENCES = [
+    WORK_EXPERIENCE6,
+    WORK_EXPERIENCE5,
+    WORK_EXPERIENCE4,
+    WORK_EXPERIENCE3,
+    WORK_EXPERIENCE2,
+  ];
+
+  const ALL_CERTIFICATIONS = [
+    CERTIFICATION7,
+    SPECIALIZATION1,
+    CERTIFICATION4,
+    CERTIFICATION3,
+    CERTIFICATION2,
+    CERTIFICATION1,
+  ];
 
   const proficient_list = () => {
     // let PROFICIENT = ['Python', 'Flask', 'TensorFlow', 'MySQL', 'React and React Native', 'JavaScript', 'scikit-learn']
@@ -431,6 +552,8 @@ function App() {
                 ? "pt"
                 : undefined || skill === "scikit-learn"
                 ? "sl"
+                : undefined || skill === "LangChain and Chroma"
+                ? "lc"
                 : undefined
             } `}
             src={require(`./Components/images/${skill}.png`)}
@@ -458,13 +581,7 @@ function App() {
         >
           <text className="ts-bullets">{skill}</text>
           <img
-            className={`ts-img ${
-              skill === "PyTorch"
-                ? "pt"
-                : undefined || skill === "scikit-learn"
-                ? "sl"
-                : undefined
-            } `}
+            className={`ts-img ${skill === "Kubernetes" ? "k8" : undefined} `}
             src={require(`./Components/images/${skill}.png`)}
           />
         </li>
@@ -476,7 +593,7 @@ function App() {
   const handleCertifications = () => {
     let out = [];
     let i = 0;
-    for (let { name, href, technologies, img } of ALL_CERTIFICATIONS){
+    for (let { name, href, technologies, img } of ALL_CERTIFICATIONS) {
       let primary_col = i % 2;
       out.push(
         <Certification
@@ -562,18 +679,17 @@ function App() {
           <h1 className="title"> Victor Samsonov</h1>
           <p className="sub-title">
             B.S. In Computer Science
-            <br/>
-            3.80/4.0 GPA
+            <br />
+            3.91/4 GPA
             <br />
             M.S. In Artificial Intelligence
-            <br/>
-            4.0/4.0 GPA
-            <br/>
+            <br />
+            4/4 GPA
+            <br />
             Graduating Dec. 2023
-
           </p>
         </div>
-        <Header/>
+        <Header />
       </header>
       <section className="body">
         <SectionTitle title={ABOUT_ME} bg={BG1} color="white" />
@@ -582,18 +698,39 @@ function App() {
           of Technology currently pursuing both my Bachelor's in Computer
           Science and my Master's in Artificial Intelligence (set to graduate in
           2023, completing both degrees in 4 years). My main area of focus
-          currently lies in Data Science and AI.
-         <br />
+          currently lies in Software Engineering and AI. I have experience
+          working as an AI Engineer, Software Engineer focusing on Machine
+          Learning, and Data Science R&D.
+          <br />
         </p>
         <p className="section-text">
-          I am a highly motivated, team-oriented, and selfless Individual that always aims to do
+          I am a highly motivated and selfless individual that always aims to do
           what is best for the team, in order to promote a successful
           environment. I enjoy getting challenged and pushing myself not only to
-          improve as an AI practitioner but also as an individual.
+          improve as an AI practitioner but also as an individual. I am
+          incredibly passionate about the field of AI and Software Engineering,
+          feel free to contact me on the following email to discuss potential
+          opportunities:{" "}
+          <a className="email" href="mailto:vsamsonov@hawk.iit.edu">
+            vsamsonov@hawk.iit.edu
+          </a>
+          .
         </p>
-        <div className="about-me-images ">
-          <img className="medium-img" src={PATHFINDING_IMG}></img>
-          <img className="medium-img" src={SORTING_IMG}></img>
+        <div className="about-me-images">
+          <a
+            href="https://github.com/victorsamsonov/Pathfinding-Visualizer"
+            target="_blank"
+            className="medium-img-container"
+          >
+            <img className="medium-img" src={PATHFINDING_IMG}></img>
+          </a>
+          <a
+            href="https://github.com/victorsamsonov/Sorting-Algorithms"
+            target="_blank"
+            className="medium-img-container"
+          >
+            <img className="medium-img" src={SORTING_IMG}></img>
+          </a>
         </div>
 
         <a className="resume-button" href={resume} target="_blank">
